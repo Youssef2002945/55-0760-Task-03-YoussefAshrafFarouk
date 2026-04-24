@@ -4,13 +4,8 @@ WORKDIR /app
 
 COPY target/*.jar app.jar
 
-# TODO: Replace with your full name, prefixed with Docker_. Format: Docker_FirstName_LastName
-# Example: Docker_Mohamed_Ayman
-ENV USER_NAME=Docker_FirstName_LastName
-
-# TODO: Replace with your student ID, prefixed with Docker_. Format: Docker_XX_XXXXX
-# Example: Docker_55_8078
-ENV ID=Docker_XX_XXXXX
+ENV USER_NAME=Docker_Youssef_Ashraf_Farouk
+ENV ID=Docker_55_0760
 
 EXPOSE 8080
 
