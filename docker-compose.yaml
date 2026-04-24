@@ -20,6 +20,8 @@ services:
       USER_NAME: Compose_Youssef_Ashraf_Farouk
       ID: Compose_55_0760
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/task03db
+      JWT_SECRET: dGhpcyBpcyBhIHNlY3JldCBrZXkgZm9yIEpXVCBzaWduaW5n
+      JWT_EXPIRATION: 3600000
     depends_on:
       - postgres
 
