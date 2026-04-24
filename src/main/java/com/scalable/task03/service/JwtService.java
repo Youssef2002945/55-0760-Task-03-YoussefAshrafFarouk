@@ -54,4 +54,7 @@ public class JwtService {
         byte[] keyBytes = Decoders.BASE64.decode(jwtConfig.getSecret());
         return Keys.hmacShaKeyFor(keyBytes);
     }
+    public long getExpiration() {
+        return jwtConfig.getExpiration();
+    }
 }
